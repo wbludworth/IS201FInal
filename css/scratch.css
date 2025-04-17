@@ -1,0 +1,117 @@
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f4f6;
+    color: #2c3e50;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1622320503456-abb0fc77516e') center/cover no-repeat;
+    padding: 100px 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  #hero p {
+    font-size: 1.3em;
+    font-weight: 300;
+  }
+  
+  /* Navigation Bar */
+  #nav {
+    background-color: #2c3e50;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  #nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  #nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  #nav ul li a:hover {
+    color: #f39c12;
+  }
+  
+  /* Section Styling */
+  #specs, #gallery, #video, #tableau {
+    padding: 50px 10%;
+    background: #ffffff;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  }
+  
+  /* Typography */
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #34495e;
+  }
+  
+  ol, ul {
+    line-height: 1.8;
+    font-size: 1.1em;
+  }
+  
+  /* Image Styling */
+  #gallery img {
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  #gallery img:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Video Embed */
+  iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  /* Footer */
+  #footer {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 0.95em;
+    background-color: #ecf0f1;
+    color: #7f8c8d;
+  }
+  
+  #footer a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  #footer a:hover {
+    text-decoration: underline;
+  }
